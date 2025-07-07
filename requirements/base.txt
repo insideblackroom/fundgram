@@ -1,7 +1,9 @@
 asttokens==3.0.0
 decorator==5.2.1
 executing==2.2.0
+greenlet==3.2.3
 humanfriendly==10.0
+ipython_pygments_lexers==1.1.1
 jedi==0.19.2
 matplotlib-inline==0.1.7
 parso==0.8.4
@@ -16,9 +18,11 @@ Pygments==2.19.2
 python-decouple==3.8
 python-dotenv==1.1.1
 python-socks==2.7.1
+PyYAML==6.0.2
 rsa==4.9.1
+SQLAlchemy==2.0.41
 stack-data==0.6.3
 Telethon==1.40.0
 traitlets==5.14.3
+typing_extensions==4.14.1
 wcwidth==0.2.13
-

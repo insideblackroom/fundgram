@@ -13,4 +13,6 @@
 `. ./venv/bin/activate`
 - Install the requirements:      
 `pip(3) install -U -r requirements.txt`
+- Create logs Directory
+`mkdir logs`
 

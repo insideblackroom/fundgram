@@ -19,3 +19,4 @@ class Var:
     
     SESSION = config('SESSION', default=None)
 
+    LANGUAGE = config('LANGUAGE', default='en')

@@ -4,10 +4,14 @@ import platform
 
 import telethon
 
+from collections import namedtuple
+
 logger = logging.getLogger(__name__)
 botcli_logger = logging.getLogger('botcli')
 TelethonLogger = logging.getLogger("Telethon")
 TelethonLogger.setLevel(logging.INFO)
+
+LANGconfig = namedtuple('LANGconfig', ['lang', 'path'])
 
 if sys.argv[0] == '-m':
     from .version import date_version, __version__ as __pypr__

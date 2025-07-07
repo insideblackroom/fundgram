@@ -2,7 +2,8 @@ from . import cli, botcli
 import asyncio
 
 async def main():
-    import plugins
+    from ._misc import _basewrapp
+    import consumers
     await cli.send_message('me', 'test 2')
     await botcli.run_until_disconnected()
 

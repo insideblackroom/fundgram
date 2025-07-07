@@ -43,5 +43,17 @@ if sys.argv[0] == '-m':
     _DB = db(Var.DATABASE_URL)
     logger.info(f"Database info: {_DB.name}")
     _DB.close()
+    
+    from .start.baseclient import BaseClient, BotBaseClient
+    # from telethon.sessions import StringSession
+    cli = BaseClient(session="cloner", proxy={'proxy_type': 'http', 'addr': '127.0.0.1', 'port': 10809})
+    botcli = BotBaseClient(
+        session='clonerbot',
+        api_id=Var.BOT_API_ID, api_hash=Var.BOT_API_HASH,
+        bot_token=True,
+        proxy={'proxy_type': 'http', 'addr': '127.0.0.1', 'port': 10809},
+        logger=botcli_logger
+        )
+    # cli.run_in_loop(make_ass())
 
 

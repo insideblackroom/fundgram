@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "handlers": {
+    "console": {
+      "class": "logging.StreamHandler",
+      "formatter": "standard",
+      "level": "DEBUG"
+    },
+    "file": {
+      "class": "logging.handlers.RotatingFileHandler",
+      "formatter": "standard",
+      "level": "DEBUG",
+      "encoding": "utf8",
+      "maxBytes": 3145728,
+      "filename": "logs/bot.log",
+      "backupCount": 20
+    },
+    "file_startup": {
+      "class": "logging.handlers.RotatingFileHandler",
+      "formatter": "standard",
+      "level": "DEBUG",
+      "encoding": "utf8",
+      "maxBytes": 3145728,
+      "filename": "logs/startup.log",
+      "backupCount": 5
+    },
+    "file_jobs": {
+      "class": "logging.handlers.RotatingFileHandler",
+      "formatter": "standard",
+      "level": "DEBUG",
+      "encoding": "utf8",
+      "maxBytes": 3145728,
+      "filename": "logs/jobs.log",
+      "backupCount": 20
+    },
+    "file_radar": {
+      "class": "logging.handlers.RotatingFileHandler",
+      "formatter": "standard",
+      "level": "DEBUG",
+      "encoding": "utf8",
+      "maxBytes": 3145728,
+      "filename": "logs/radar.log",
+      "backupCount": 20
+    }
+  },
+  "loggers": {
+    "botcli": {
+      "handlers": ["console", "file"],
+      "propagate": false,
+      "level": "DEBUG"
+    },
+    "startup": {
+      "handlers": ["console", "file_startup"],
+      "propagate": false,
+      "level": "DEBUG"
+    },
+    "radar": {
+      "handlers": ["file_radar"],
+      "propagate": false,
+      "level": "DEBUG"
+    },
+    "session_decorator": {
+      "handlers": ["console", "file"],
+      "propagate": false,
+      "level": "INFO"
+    },
+    "database.events": {
+      "handlers": ["console", "file"],
+      "propagate": false,
+      "level": "DEBUG"
+    },
+    "database.queries.chats": {
+      "handlers": ["console", "file"],
+      "propagate": false,
+      "level": "DEBUG"
+    },
+    "plugins.events.job": {
+      "handlers": ["console", "file_jobs"],
+      "propagate": false,
+      "level": "DEBUG"
+    },
+    "plugins.staff.welcome.private": {
+      "handlers": ["console", "file"],
+      "propagate": false,
+      "level": "DEBUG"
+    },
+    "plugins.staff.chat.duplicates_job": {
+      "handlers": ["console", "file_jobs"],
+      "propagate": false,
+      "level": "DEBUG"
+    },
+    "": {
+      "handlers": [
+        "console",
+        "file"
+      ],
+      "propagate": false,
+      "level": "DEBUG"
+    },
+    "telegram": {
+      "level": "WARNING"
+    },
+    "apscheduler.scheduler": {
+      "level": "WARNING"
+    },
+    "url_cleaner": {
+      "level": "INFO"
+    },
+    "hpack": {
+      "level": "INFO"
+    },
+    "httpx": {
+      "level": "WARNING"
+    },
+    "httpcore": {
+      "level": "WARNING"
+    },
+    "loader": {
+      "level": "INFO"
+    },
+    "save_from_message": {
+      "level": "INFO"
+    },
+    "plugins.applications.users.any_message": {
+      "level": "INFO"
+    }
+  },
+  "formatters": {
+    "short": {
+      "format": "[%(name)s][%(levelname)s] >>> %(message)s"
+    },
+    "standard": {
+      "format": "[%(asctime)s][%(name)s][%(module)s:%(funcName)s:%(lineno)d][%(levelname)s] >>> %(message)s"
+    },
+    "conversation_status": {
+      "format": "[%(asctime)s][%(levelname)s] >>> %(message)s"
+    }
+  }
+}
+
+

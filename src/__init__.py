@@ -28,3 +28,20 @@ if sys.argv[0] == '-m':
     logger.info(f"Telethon Version: {__version__}")
     logger.info(f"Telethon Layer: {LAYER}")
     logger.info(f"Project Version: {__pypr__}")
+
+    from .configs import Var
+    import os
+    if Var.DATABASE_URL:
+        try:
+            import psycopg2
+        except ImportError:
+            logger.info("Install psycopg2 to enable PostgreSQL")
+            os.system(f"{sys.executable} -m pip install psycopg2-binary")
+            import psycopg2
+
+    from .start._db import db
+    _DB = db(Var.DATABASE_URL)
+    logger.info(f"Database info: {_DB.name}")
+    _DB.close()
+
+

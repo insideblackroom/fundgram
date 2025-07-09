@@ -20,3 +20,5 @@ class Var:
     SESSION = config('SESSION', default=None)
 
     LANGUAGE = config('LANGUAGE', default='en')
+
+    OPENWEATHER_API_KEY = config('OPENWEATHER_API_KEY', default=None)

@@ -1,3 +1,6 @@
 name: "English"
 
 gl_1: "Processing..."
+
+err_!: "Something went wrong. Try again later."
+err_2: "No Location Was Given..."

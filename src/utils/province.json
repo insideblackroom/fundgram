@@ -1,0 +1,219 @@
+[
+    {
+        "Code": 0,
+        "Name": "تهران",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 1
+    },
+    {
+        "Code": 5,
+        "Name": "اردبیل",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 26
+    },
+    {
+        "Code": 6,
+        "Name": "آذربایجان غربی",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 3
+    },
+    {
+        "Code": 7,
+        "Name": "مرکزی",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 4
+    },
+    {
+        "Code": 8,
+        "Name": "اصفهان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 2
+    },
+    {
+        "Code": 9,
+        "Name": "خوزستان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 5
+    },
+    {
+        "Code": 10,
+        "Name": "ایلام",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 29
+    },
+    {
+        "Code": 11,
+        "Name": "بوشهر",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 20
+    },
+    {
+        "Code": 12,
+        "Name": "آذربایجان شرقی",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 6
+    },
+    {
+        "Code": 13,
+        "Name": "لرستان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 30
+    },
+    {
+        "Code": 14,
+        "Name": "گیلان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 16
+    },
+    {
+        "Code": 15,
+        "Name": "زنجان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 25
+    },
+    {
+        "Code": 16,
+        "Name": "سیستان و بلوچستان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 12
+    },
+    {
+        "Code": 17,
+        "Name": "سمنان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 27
+    },
+    {
+        "Code": 18,
+        "Name": "کردستان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 22
+    },
+    {
+        "Code": 19,
+        "Name": "مازندران",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 17
+    },
+    {
+        "Code": 20,
+        "Name": "فارس",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 8
+    },
+    {
+        "Code": 21,
+        "Name": "قزوین",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 10
+    },
+    {
+        "Code": 22,
+        "Name": "قم",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 11
+    },
+    {
+        "Code": 23,
+        "Name": "کرمان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 19
+    },
+    {
+        "Code": 24,
+        "Name": "کرمانشاه",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 21
+    },
+    {
+        "Code": 25,
+        "Name": "گلستان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 18
+    },
+    {
+        "Code": 26,
+        "Name": "خراسان رضوی",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 13
+    },
+    {
+        "Code": 27,
+        "Name": "همدان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 24
+    },
+    {
+        "Code": 28,
+        "Name": "چهارمحال بختیاری",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 31
+    },
+    {
+        "Code": 29,
+        "Name": "کهکلویه و بویراحمد",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 32
+    },
+    {
+        "Code": 30,
+        "Name": "یزد",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 14
+    },
+    {
+        "Code": 31,
+        "Name": "هرمزگان",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 7
+    },
+    {
+        "Code": 33,
+        "Name": "خراسان شمالی",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 15
+    },
+    {
+        "Code": 34,
+        "Name": "خراسان جنوبی",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 827
+    },
+    {
+        "Code": 35,
+        "Name": "البرز",
+        "LName": "",
+        "Country_Code": 1,
+        "Center_City_Code": 9
+    }
+]

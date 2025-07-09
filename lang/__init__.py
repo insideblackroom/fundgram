@@ -22,10 +22,22 @@ def read_lang(file_path):
 
 language = read_lang(lang_path.format(LANGconfig.lang))
 
+def translate(
+    text: str, 
+    target_language: str, 
+    source_language:str='auto',
+    timeout:int=15
+    ):
+    ...
+
 def get_text(key: str):
     l = LANGconfig.lang or 'en'
     try:
         return language[l][key]
+    except KeyError:
+        english = language['en'][key]
+        translated = translate(english, l)
+    
     except Exception as err:
         logger.error(f"Error in get Language text: {err}")
         return "Something went wrong"
